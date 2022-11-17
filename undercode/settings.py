@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'appundercode'
 ]
 
 MIDDLEWARE = [
@@ -54,7 +55,7 @@ ROOT_URLCONF = 'undercode.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r'C:\Users\MegaTecnologia\Desktop\PrimeraEntrega\undercode\undercode\templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
