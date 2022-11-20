@@ -1,6 +1,6 @@
-# Undercode
+# Blog Undercode
 
-Tienda de ropa innovadora donde podras encontrar prendas de todo tipo. Undercode es para vos!
+Este blog trata de diversos temas interesante los cuales te pueden ayudar. Undercode es para vos!
 
 
 ## Screenshots

@@ -22,5 +22,10 @@ class Comentarios(models.Model):
     estado = models.BooleanField(default=True)
 
 
+class Preguntas(models.Model):
+    nombre = models.CharField(max_length=200)
+    email = models.EmailField()
+
+
 
     

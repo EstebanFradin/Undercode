@@ -1,0 +1,18 @@
+{% extends 'appundercode/base.html' %}
+
+{% block Contenido %}
+
+<form action="/blog/cuestionario/" method="post">
+{% csrf_token %}
+<p> 
+    Nombre <input type="text" name="nombre">
+</p>
+<p>
+    Email <input type="email" name="mail">
+</p>
+
+<input type="submit" value="ENVIAR">
+
+</form>
+
+{% endblock %}
