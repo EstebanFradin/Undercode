@@ -23,6 +23,6 @@ def buscar_blog(request):
 
 def resultados(request):
     nombre = request.GET['nombre']
-    name = Blog.object.filter(nombre_icontains=nombre)
+    name = Preguntas.object.filter(nombre_icontains=nombre)
     return render(request, 'appundercoder/blogs.html', {"name": name})
 
